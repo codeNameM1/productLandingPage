@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cnM1 Products</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"
+      defer
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <header id="header">
+        <div class="logo">
+          <img
+            src="./photos/header.photo.jpg"
+            alt="buddah-stock-photo"
+            id="header-img"
+          />
+        </div>
+
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#features"
+              >Features
+              </li
+            ></a>
+            <li><a class="nav-link" href="#reviews"
+              >Reviews
+              </li
+            ></a>
+            <li><a class="nav-link" href="#prices"
+              >Prices
+              </li
+            ></a>
+          </ul>
+        </nav>
+      </header>
+
+      <div id="container"></div>
+      <section id="member-info">
+        <h2>Set it and Forget it</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter for Membership prices"
+            required
+          />
+
+          <input id="submit" value="Never Forget" class="btn" type="submit" />
+        </form>
+      </section>
+
+      <div class="container">
+        <section id="features">
+          <div class="grid">
+            <div class="desc">
+              <h2>Membership Features</h2>
+              <p>
+                Lifetime Guarantee. 100% refund, if not satisfied. Highest
+                quality componets. 24/7 Customer service.
+              </p>
+            </div>
+          </div>
+
+          <div class="grid">
+            <div class="desc">
+              <h2>Member Reviews</h2>
+              <p>
+                Our proud members will atest to the greatness of our products.
+                From the first-time user to the more experienced member.
+              </p>
+            </div>
+          </div>
+
+          <div class="grid">
+            <div class="desc">
+              <h2>Membership Pricing</h2>
+              <p>
+                Multiple discounts and partnerships available. We are here to
+                make life easier one day at a time
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- video is here -->
+
+        <section class="reviews" id="reviews">
+          <iframe
+            id="video"
+            height="300"
+            src="photos\features.vid.mp4"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <!-- <iframe
+              id="video"
+              height="315"
+              src="https://youtu.be/1VXuM75KfeM"
+              frameborder="0"
+              allowfullscreen=""
+            ></iframe> -->
+        </section>
+
+        <br />
+        <br />
+
+        <section id="prices">
+          <div class="product" id="entry-level">
+            <div class="level">Entry-Level Membership</div>
+            <h2>$40/Yr</h2>
+            <ol>
+              <li>Membership Card</li>
+              <li>24/7 Customer Service</li>
+              <li>Discounts on Merchandise</li>
+              <li>Updated Information</li>
+            </ol>
+            <button class="btn">Select Entry-LvL</button>
+          </div>
+
+          <br />
+
+          <div class="product" id="mid-level">
+            <div class="level">Mid-Level-Membership</div>
+            <h2>$80/Yr</h2>
+            <ol>
+              <li><sub>includes all Entry-Level components</sub></li>
+              <li>Exclusive Mid-level Content</li>
+              <li>Mid-tier Flyers club</li>
+              <li>Random prizes/gifts</li>
+            </ol>
+            <button class="btn">Select Mid-LvL</button>
+          </div>
+
+          <br />
+
+          <div class="product" id="sky-level">
+            <div class="level">Sky-Level-Membership</div>
+            <h2>$250/Yr</h2>
+            <ol>
+              <li><sub>includes all Mid-Level components</sub></li>
+              <li>Exclusive Sky-level Content</li>
+              <li>Fly Sky-High club</li>
+              <li>Access to Sky-High Members-Only Meets</li>
+              <li>Highest Level of Membership</li>
+            </ol>
+            <button class="btn">Select Sky-High-Level</button>
+          </div>
+        </section>
+        <footer>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <span>Copyright 2020, Homie Roller 9000©</span>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
